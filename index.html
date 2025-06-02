@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informationen zu Betriebsrat & JAV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #005792;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 100px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ddd;
+    }
+    nav button {
+      background: none;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    nav button:hover {
+      background-color: #ccc;
+    }
+    nav button.active {
+      background-color: #bbb;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #005792;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .footer-links {
+      margin-top: 10px;
+    }
+    .footer-links a {
+      color: #005792;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="\\CG07FS01\usrdaten$\CardelEm\Daten\Profildaten\Bilder\ColognIT.png" alt="ColognIT Logo">
+    <h1>Betriebsrat & Jugend- und Auszubildendenvertretung (JAV)</h1>
+    <p>Deine Interessenvertretung bei der ColognIT GmbH</p>
+  </header>
+
+  <nav>
+    <button class="tablink" onclick="openTab(event, 'startseite')">Startseite – Info</button>
+    <button class="tablink active" onclick="openTab(event, 'betriebsrat')">Betriebsrat</button>
+    <button class="tablink" onclick="openTab(event, 'jav')">JAV</button>
+    <button class="tablink" onclick="openTab(event, 'quiz')">Quiz</button>
+  </nav>
+
+  <main>
+    <div id="startseite" class="tab-content">
+      <section>
+        <h2>Willkommen!</h2>
+	<p>Liebe Kolleginnen und Kollegen,</p>
+	</p>bei der ColognIT GmbH steht eine wichtige Veränderung im Raum: Die Einführung eines Betriebsrats sowie einer Jugend- und 	Auszubildendenvertretung (JAV). Ziel dieser Initiative ist es, euch – die Beschäftigten – stärker in betriebliche Entscheidungen einzubinden 	und eine verlässliche Interessenvertretung zu schaffen. Gerade in Zeiten wirtschaftlicher Unsicherheiten ist es wichtig, dass eure Rechte 	gewahrt und eure Anliegen gehört werden.</p>
+        <p>Auf dieser Seite findest du alle wichtigen Informationen zum Betriebsrat und zur Jugend- und Auszubildendenvertretung (JAV) bei der ColognIT GmbH. Nutze die Reiter oben, um gezielt mehr über deine Rechte und Beteiligungsmöglichkeiten zu erfahren oder überprüfe deine Wahlberechtigung und mögliche Wählbarkeit im Quiz!</p>
+      </section>
+    </div>
+
+ <div id="betriebsrat" class="tab-content active">
+  <section>
+    <h2>Was ist der Betriebsrat?</h2>
+    <p>Der Betriebsrat ist die Interessenvertretung aller Arbeitnehmerinnen und Arbeitnehmer eines Unternehmens. Er achtet darauf, dass im Betrieb soziale Gerechtigkeit herrscht und gesetzliche, tarifliche sowie betriebliche Regelungen eingehalten werden. Der Betriebsrat ist unabhängig, gewählt von der Belegschaft und tritt für eure Rechte ein.</p>
+
+    <p>Er wirkt unter anderem mit bei:</p>
+    <ul>
+      <li>Arbeitszeitregelungen, Pausen und Urlaubsplanung</li>
+      <li>Einstellung, Versetzung und Kündigung von Beschäftigten</li>
+      <li>Gestaltung von Arbeitsplätzen, Arbeitsabläufen und technischer Ausstattung</li>
+      <li>Maßnahmen zur Unfallverhütung und zum Gesundheitsschutz</li>
+      <li>Fragen zur Weiterbildung und beruflichen Entwicklung</li>
+      <li>Gleichstellung von Frauen und Männern sowie Integration von Menschen mit Behinderung</li>
+    </ul>
+
+    <p>Der Betriebsrat kann Probleme ansprechen, Missstände aufzeigen und aktiv Verbesserungen im Sinne der Belegschaft einfordern. Er sorgt dafür, dass Entscheidungen nicht über eure Köpfe hinweg getroffen werden.</p>
+
+    <!-- Wahlberechtigung -->
+    <h3>Wer darf wählen?</h3>
+    <p>Wahlberechtigt (aktives Wahlrecht) sind alle:</p>
+    <ul>
+      <li>Arbeitnehmer*innen ab 16 Jahren, die dem Betrieb angehören</li>
+       </ul>
+    <p>Auch Auszubildende, Praktikant*innen und Aushilfen dürfen wählen – sofern sie mindestens 16 Jahre alt sind. Werden Arbeitnehmer eines anderen Arbeitgebers zur Arbeitsleistung überlassen, so sind diese wahlberechtigt, wenn sie länger als drei Monate im Betrieb eingesetzt werden(BetrVG § 7). </p>
+
+    <h4>Wer darf <em>nicht</em> wählen?</h4>
+    <ul>
+      <li>Beschäftigte unter 16 Jahren</li>
+      <li>leitende Angestellte im Sinne des § 5 Abs. 3 BetrVG (z. B. Prokurist*innen mit Weisungsbefugnis)</li>
+      <li>Geschäftsführer*innen, Vorstandsmitglieder, Inhaber*innen</li>
+      <li>freie Mitarbeiter*innen und Personen, die nicht in den Betrieb eingegliedert sind</li>
+    </ul>
+
+    <!-- Wählbarkeit -->
+    <h3>Wer darf kandidieren?</h3>
+    <p>Wählbar (passives Wahlrecht) sind alle Arbeitnehmer*innen,</p>
+    <ul>
+      <li>die dem Betrieb seit mindestens sechs Monaten angehören,</li>
+      <li>und das 18. Lebensjahr vollendet haben.</li>
+    </ul>
+    <p>In neu gegründeten Betrieben genügt eine Betriebszugehörigkeit seit Bestehen des Unternehmens.</p>
+
+    <h4>Wer darf <em>nicht</em> kandidieren?</h4>
+    <ul>
+      <li>Beschäftigte unter 18 Jahren</li>
+      <li>Beschäftigte mit weniger als sechs Monaten Betriebszugehörigkeit (außer bei Neugründungen)</li>
+      <li>leitende Angestellte, Geschäftsführer*innen, Vorstandsmitglieder</li>
+      <li>wer infolge strafgerichtlicher Verurteilung die Fähigkeit zu wählen, nicht besitzt</li>
+  	</ul>
+
+    <!-- Größe -->
+    <h3>Wie viele Mitglieder hat der Betriebsrat?</h3>
+    <p>Die Anzahl der Betriebsratsmitglieder hängt von der Zahl der wahlberechtigten Arbeitnehmer*innen ab. Bei 5 bis 20 wahlberechtigten Beschäftigten besteht der Betriebsrat aus 1 Person.</p>
+    <p>Bei ColognIT mit aktuell 36 Beschäftigten wären es laut § 9 BetrVG voraussichtlich <strong>3 Mitglieder</strong>.</p>
+
+    <!-- Wahlablauf -->
+    <h3>Wie läuft die Wahl ab?</h3>
+    <p>Die Wahl des Betriebsrats erfolgt geheim, frei und direkt. Für kleinere Betriebe wie die ColognIT GmbH kommt das vereinfachte Wahlverfahren zur Anwendung, das schneller und übersichtlicher organisiert werden kann.</p>
+    <p>Der Ablauf umfasst im Wesentlichen:</p>
+    <ul>
+      <li>Bestellung eines Wahlvorstands (durch Beschäftigte oder ggf. durch das Arbeitsgericht)</li>
+      <li>Erstellung eines Wählerverzeichnisses</li>
+      <li>Bekanntmachung der Wahl und Einreichung von Wahlvorschlägen</li>
+      <li>Durchführung der geheimen Wahl</li>
+      <li>Auszählung und Bekanntgabe des Wahlergebnisses</li>
+    </ul>
+
+    <!-- Zeitpunkt -->
+    <h3>Wann wird gewählt?</h3>
+    <p>Die erste Betriebsratswahl bei der ColognIT GmbH soll voraussichtlich in den kommenden Monaten stattfinden. Ein konkreter Wahltermin wird noch bekannt gegeben. Die regelmäßigen Betriebsratswahlen finden üblicherweise alle vier Jahre in der Zeit vom 1. März bis 31. Mai statt. Sobald der Wahlvorstand eingesetzt ist, informiert er über alle Fristen und den genauen Zeitplan.</p>
+
+    <!-- Amtszeit -->
+    <h3>Wie lange ist die Amtszeit?</h3>
+    <p>Die Amtszeit eines gewählten Betriebsrats beträgt in der Regel vier Jahre (§ 21 BetrVG). Danach findet eine Neuwahl statt. Ein Rücktritt oder eine vorzeitige Neuwahl ist unter bestimmten Bedingungen ebenfalls möglich.</p>
+
+    <p>Wenn du Fragen hast oder dich für eine Kandidatur interessierst, kannst du dich gerne melden oder vorab schonmal das Quiz zu Überprüfung bearbeiten. Je mehr Kolleg*innen sich beteiligen, desto wirkungsvoller kann der Betriebsrat für uns alle eintreten.</p>
+  </section>
+</div>
+
+
+
+
+    <div id="jav" class="tab-content">
+      <section>
+        <h2>Was ist die JAV?</h2>
+        <p>Neben den Betriebsrätinnen und -räten als Vertreterinnen und Vertreter aller Beschäftigten gibt es in vielen Betrieben auch eine JAV, die speziell die Interessen von Jugendlichen und Azubis vertritt. Die JAV unterstützt Azubis bei allen wichtigen Fragen rund um die Ausbildung.</p>
+        <p>Sie überwacht, dass die Auszubildenden korrekt behandelt werden – und dass die Chefin oder der Chef die für sie geltenden Gesetze, Bestimmungen und Tarifverträge einhält. Sie hilft, wenn die Qualität der Ausbildung nicht stimmt – etwa weil ein Azubi Kaffee kochen und putzen muss statt seinen Beruf zu erlernen.</p>
+        <p>Die JAV organisiert zudem Aktionen, etwa auf Betriebsversammlungen, mit denen Auszubildende und Jugendliche ihre Forderungen klarmachen – nicht nur der Chefin oder dem Chef, sondern auch der Belegschaft. Denn schließlich brauchen sie auch die Unterstützung der älteren Beschäftigten, um ihre Ziele durchzusetzen. Außerdem setzt die JAV mit dem Betriebsrat durch, dass der Betrieb alle Azubis nach der Abschlussprüfung unbefristet übernimmt.</p>
+
+        <h3>Wer darf wählen?</h3>
+        <p>Alle jugendlichen Beschäftigten unter 18 und zur Berufsausbildung Beschäftigten sind zur JAV-Wahl berechtigt!</p>
+        <ul>
+          <li>Beschäftigte unter 18 Jahren</li>
+          <li>Alle in Ausbildung – unabhängig vom Alter</li>
+        </ul>
+        <p>Wahlberechtigt ist man auch während:</p>
+        <ul>
+          <li>eines Volontariats</li>
+          <li>einer Umschulung</li>
+          <li>einer berufsvorbereitenden Maßnahme</li>
+          <li>eines dualen Studiums</li>
+          <li>eines studentischen Praktikums</li>
+        </ul>
+        <p>Nicht wahlberechtigt ist man während:</p>
+        <ul>
+          <li>eines freiwilligen sozialen oder ökologischen Jahres</li>
+          <li>eines Schülerpraktikums</li>
+        </ul>
+
+        <h3>Wahlgrundsätze</h3>
+        <ul>
+          <li><strong>Wahlfreiheit:</strong> Jede wahlberechtigte Person darf frei und unbeeinflusst wählen.</li>
+          <li><strong>Geheimnis der Wahl:</strong> Die Stimmabgabe ist anonym und vertraulich.</li>
+          <li><strong>Gleichheit der Stimmen:</strong> Jede Stimme zählt gleich viel.</li>
+          <li><strong>Persektivität:</strong> Alle Wahlberechtigten dürfen wählen (aktives Wahlrecht).</li>
+          <li><strong>Passivität:</strong> Jeder, der die Voraussetzungen erfüllt, kann gewählt werden (passives Wahlrecht).</li>
+        </ul>
+
+        <h3>Weitere wichtige Aspekte</h3>
+        <ul>
+          <li><strong>Wahlberechtigung:</strong> Alle unter 18 sowie alle Auszubildenden dürfen wählen.</li>
+          <li><strong>Kandidaten:</strong> Unter 25 Jahre oder in Ausbildung – unabhängig vom Alter.</li>
+          <li><strong>Wahlvorstand:</strong> Wird vom Betriebsrat eingesetzt und organisiert die Wahl.</li>
+          <li><strong>Wahlordnung:</strong> Regelt Fristen, Durchführung, Auszählung etc.</li>
+          <li><strong>Wahlkampf:</strong> Kandidaten dürfen aktiv für sich werben.</li>
+        </ul>
+
+        <p>Die rechtlichen Grundlagen zur JAV-Wahl findest du im Betriebsverfassungsgesetz (BetrVG).</p>
+      </section>
+    </div>
+
+    <div id="quiz" class="tab-content">
+      <section>
+       <h2>Bin ich wahlberechtigt?</h2>
+
+<h3>Für den Betriebsrat:</h3>
+<p>Frage 1: Bist du mindestens 18 Jahre alt?</p>
+<select id="br_age">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<p>Frage 2: Bist du seit mindestens 6 Monaten im Betrieb beschäftigt?</p>
+<select id="br_time">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<p>Frage 3: Bist du leitender Angestellter, freier Mitarbeiter*in, Geschäftsführer oder Vorstandsmitglied?</p>
+<select id="br_stelle">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<button onclick="checkBR()">Prüfen</button>
+<p id="br_result"></p>
+
+<hr>
+
+<h3>Für die JAV:</h3>
+<p>Frage 1: Bist du unter 18 Jahre <em>oder</em> zur Berufsausbildung beschäftigt und unter 25 Jahre?</p>
+<select id="jav_criteria">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<button onclick="checkJAV()">Prüfen</button>
+<p id="jav_result"></p>
+
+
+<h2>Bin ich wählbar (kann ich kandidieren)?</h2>
+
+<h3>Für den Betriebsrat:</h3>
+<p>Frage 1: Bist du mindestens 18 Jahre alt?</p>
+<select id="br_wahlbar_age">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<p>Frage 2: Bist du seit mindestens 6 Monaten im Betrieb beschäftigt?</p>
+<select id="br_wahlbar_time">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<p>Frage 3: Bist du leitender Angestellter, freier Mitarbeiter*in, Geschäftsführer oder Vorstandsmitglied?</p>
+<select id="br_wahlbar_stelle">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<button onclick="checkBRWahlbar()">Prüfen</button>
+<p id="br_wahlbar_result"></p>
+
+<hr>
+
+<h3>Für die JAV:</h3>
+<p>Frage 1: Bist du unter 18 Jahre <em>oder</em> zur Berufsausbildung beschäftigt und unter 25 Jahre?</p>
+<select id="jav_wahlbar_criteria">
+  <option value="yes">Ja</option>
+  <option value="no">Nein</option>
+</select>
+<button onclick="checkJAVWahlbar()">Prüfen</button>
+<p id="jav_wahlbar_result"></p>
+      </section>
+    </div>
+
+    <div id="impressum" class="tab-content">
+      <section>
+        <h2>Impressum</h2>
+        <p><strong>§5 TMG<br>Verantwortlich für den Inhalt:</strong></p>
+        <p>
+          Marcel Nalkiran und Emanuele Cardella<br>
+          EGB Köln<br>
+          Modemannstr. 25<br>
+          51065 Köln<br>
+          E-Mail: <a href="mailto:AITB0124.Nalkiran@egb-koeln.de">AITB0124.Nalkiran@egb-koeln.de</a><br>
+          E-Mail: <a href="mailto:AITB0124.Cardella@egb-koeln.de">AITB0124.Cardella@egb-koeln.de</a>
+        </p>
+      </section>
+    </div>
+
+    <div id="datenschutz" class="tab-content">
+      <section>
+        <h2>Datenschutz</h2>
+        <p>Datenschutz
+Hinweise zur Datenverarbeitung
+(1)       Bei dem Aufruf unserer Website werden personenbezogene Daten erhoben. Dies ist aus technischen Gründen erforderlich, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. e, Abs. 3 EU-DSGVO in Verbindung mit § 3 Abs. 1 Datenschutzgesetz Nordrhein-Westfalen (DSG NRW). Bei jedem Zugriff auf Inhalte des Internetangebotes werden dort personenbezogene Daten empfangen und vorübergehend für 7 Tage über sogenannte Protokoll- oder Log-Dateien gespeichert.
+Die folgenden Daten werden bei jedem Aufruf der Internetseite erhoben:
+IP-Adresse
+Datum und Uhrzeit des Abrufs
+Inhalt der Anforderung (konkrete Seite)
+Zugriffsstatus/HTTP-Statuscode
+jeweils übertragene Datenmenge
+Website, von der die Anforderung kommt
+Browser
+Betriebssystem und dessen Oberfläche
+Sprache und Version der Browsersoftware.
+Wir weisen darauf hin, dass Betreiber von fremden Internetseiten, die vom Portal aus verlinkt werden, die Daten von Besucherinnen bzw. Besuchern dieser Internetseiten erheben und auswerten können.
+(2)       Bei Ihrer Kontaktaufnahme mit uns per E-Mail oder über ein Kontaktformular müssen die von Ihnen freiwillig mitgeteilten Daten (Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) gespeichert werden, um Ihrem Anliegen entgegen kommen zu können. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. e, Abs. 3 EU-DSGVO in Verbindung mit § 3 Abs. 1 Datenschutzgesetz Nordrhein-Westfalen (DSG NRW).
+Die von Ihnen eingegebenen persönlichen Daten verwenden wir nur zu dem von Ihnen gewünschten Zweck. Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich is</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 ColognIT GmbH – Für Fragen wende dich gerne an deinen Ausbildungsbetreuer oder die Personalabteilung.
+    <div class="footer-links">
+      <a onclick="openTab(event, 'impressum')">Impressum</a> |
+      <a onclick="openTab(event, 'datenschutz')">Datenschutz</a>
+    </div>
+  </footer>
+
+  <script>
+    function openTab(evt, tabName) {
+      const tabContents = document.querySelectorAll('.tab-content');
+      const tabLinks = document.querySelectorAll('.tablink');
+      tabContents.forEach(tc => tc.classList.remove('active'));
+      tabLinks.forEach(tl => tl.classList.remove('active'));
+      document.getElementById(tabName).classList.add('active');
+      if (evt.currentTarget.classList.contains('tablink')) {
+        evt.currentTarget.classList.add('active');
+      }
+    }
+
+  function checkBR() {
+    const age = document.getElementById("br_age").value;
+    const time = document.getElementById("br_time").value;
+    const stelle = document.getElementById("br_stelle").value;
+
+    if (age === "yes" && time === "yes" && stelle === "no") {
+      document.getElementById("br_result").innerText = "✅Du bist wahlberechtigt für den Betriebsrat.";
+    } else {
+      document.getElementById("br_result").innerText = "❌Du bist nicht wahlberechtigt für den Betriebsrat.";
+    }
+  }
+
+  function checkJAV() {
+    const criteria = document.getElementById("jav_criteria").value;
+
+    if (criteria === "yes") {
+      document.getElementById("jav_result").innerText = "✅Du bist wahlberechtigt für die JAV.";
+    } else {
+      document.getElementById("jav_result").innerText = "❌Du bist nicht wahlberechtigt für die JAV.";
+    }
+  }
+
+  function checkBRWahlbar() {
+    const age = document.getElementById("br_wahlbar_age").value;
+    const time = document.getElementById("br_wahlbar_time").value;
+    const stelle = document.getElementById("br_wahlbar_stelle").value;
+
+    if (age === "yes" && time === "yes" && stelle === "no") {
+      document.getElementById("br_wahlbar_result").innerText = "✅Du bist wählbar für den Betriebsrat.";
+    } else {
+      document.getElementById("br_wahlbar_result").innerText = "❌Du bist nicht wählbar für den Betriebsrat.";
+    }
+  }
+
+  function checkJAVWahlbar() {
+    const criteria = document.getElementById("jav_wahlbar_criteria").value;
+
+    if (criteria === "yes") {
+      document.getElementById("jav_wahlbar_result").innerText = "✅Du bist wählbar für die JAV.";
+    } else {
+      document.getElementById("jav_wahlbar_result").innerText = "❌Du bist nicht wählbar für die JAV.";
+    }
+  }
+</script>
+</body>
+</html>
